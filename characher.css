@@ -1,0 +1,498 @@
+body{
+    background-color: wheat;
+   }
+   
+   header{
+      color: rgb(40, 42, 112) ;
+   } 
+    header h1{
+    
+     text-align: center;
+      
+   }
+   .navvbar{
+    position: sticky;  
+    top: 0;
+    z-index: 1000;
+     padding: 10px 0;
+     background-color:  rgb(40, 42, 112) ;
+    }
+       
+   .navvbar ul{
+    list-style-type: none;
+    background-color: rgb(40, 40, 114);
+    padding:  0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+  
+   .navvbar li {
+     list-style: none;
+    
+     
+     
+   }
+  
+   .navvbar a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding:  0px;
+    text-align: center;
+    
+   }
+  
+   .navvbar a:hover{
+      color:  skyblue;
+    }
+    .navvbar a.active-1 {
+      color:  skyblue;
+    
+    } 
+    .navvbar a.active-2 {
+      color:  skyblue;
+    
+    } 
+
+.Gallery-1A{
+margin: 10px; 
+display: flex;
+justify-content: space-evenly;
+
+  }
+ .Gallery-2A {
+  font-size: 16px;
+  margin: 45px; 
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  .Gallery-3A {
+    font-size: 16px;
+    margin: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    }
+    
+  
+  
+  
+  .gallery-a{
+    background-color: rgb( 69, 43, 30); ;
+      
+      border: 4px solid rgb( 69, 43, 30);
+  }
+  .gallery-a:hover {
+    border: 4px solid rgba(112, 40, 4, 0.911);
+    background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-b{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+.gallery-b:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-c{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+.gallery-c:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-d{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+.gallery-d:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-e{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+.gallery-e:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-f{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+
+.gallery-f:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+
+.gallery-g{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+
+.gallery-g:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.gallery-h{
+  background-color: rgb( 69, 43, 30); ;
+    
+    border: 4px solid rgb( 69, 43, 30);
+}
+
+.gallery-h:hover {
+  border: 4px solid rgba(112, 40, 4, 0.911);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+
+.galery-1 span{
+  position: relative;
+  left: 145px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+  
+}
+
+.galery-2 span{
+  position: relative;
+  left: 145px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+
+}
+
+.galery-3 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+   cursor: pointer;
+}
+.galery-4 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+.galery-5 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+.galery-5 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+.galery-6 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+.galery-7 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+.galery-8 span{
+  position: relative;
+  left: 125px;
+  color: whitesmoke;
+  background-color:rgb( 69, 43, 30); 
+  cursor: pointer;
+}
+
+
+
+.galery-1 pre {
+  display: block;
+  color: #000000;
+  padding: 10 10px;
+}
+
+.galery-1 pre:hover {
+  display: block;
+  color: #ffffff;
+  padding: 10 10px;
+}
+
+.galery-2 pre {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10 10px;
+}
+.galery-2 pre:hover {
+  display: block;
+  color: #000000;
+  padding: 10 10px;
+}
+
+.galery-3 pre {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 10 10px;
+}
+.galery-3 pre:hover {
+  display: block;
+  color: #ffffff;
+  padding: 10 10px;
+}
+
+.galery-4 pre {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10 10px;
+}
+
+.galery-4 pre:hover {
+  display: block;
+  color: #000000;
+  padding: 10 10px;
+}
+
+.galery-5 pre {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10 10px;
+}
+.galery-5 pre:hover {
+  display: block;
+  color: #000000;
+  padding: 10 10px;
+}
+.galery-6 pre {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 10 10px;
+}
+.galery-6 pre:hover {
+  display: block;
+  color: #ffffff;
+  padding: 10 10px;
+}
+
+.galery-7 pre {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10 10px;
+}
+.galery-7 pre:hover {
+  display: block;
+  color: #000000;
+  padding: 10 10px;
+}
+
+.galery-8 pre {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 10 10px;
+}
+
+.galery-8 pre:hover {
+  display: block;
+  color: #ffffff;
+  padding: 10 10px;
+}
+.galery-1 .content-1{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  z-index: 1000;
+}
+
+.galery-2 .content-2{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+
+.galery-3 .content-3{
+  font-size: 15px;
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+.galery-4 .content-4{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+.galery-5 .content-5{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+
+.galery-6 .content-6{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+
+.galery-7 .content-7{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+
+.galery-8 .content-8{
+  display: none;
+  position: absolute;
+  background-color: rgb( 69, 43, 30); 
+  min-width: 100px;
+  box-shadow:2px 2px 5px hsla(0, 0%, 0%, 0.8);
+  z-index: 1000;
+}
+
+
+.galery-1:hover .content-1 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+ 
+} 
+
+.galery-2:hover .content-2 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-3:hover .content-3 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-4:hover .content-4 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-5:hover .content-5 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-6:hover .content-6 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-7:hover .content-7 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-8:hover .content-8 {
+  display: block;
+  background-color: rgba(112, 40, 4, 0.911);
+} 
+
+.galery-1 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-2 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-3 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-4 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-5 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-6 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+.galery-7 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+.galery-8 span:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgba(112, 40, 4, 0.911);
+}
+
+
+footer{
+
+  color:  black;
+  text-align: center;
+  margin: 0px;
+  background-color: rgb(40, 42, 112) ;
+}
+footer  span { 
+ padding:  20px;
+ color: white;
+  
+ 
+}
+

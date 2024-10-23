@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+ 
+ body{
+  background-color: wheat;
+  width: 100%; 
+ }
+ 
+ header{
+    color: rgb(40, 42, 112) ;
+ } 
+  header h1{
+  
+   text-align: center;
+ }
+
+ .container{ 
+    background-color:  rgb(59, 29, 0);
+    display: flex;          
+    align-items: center;   
+     
+    } 
+
+    .container .tompic{
+       display: block; 
+       overflow: hidden; 
+       max-width: 100%;
+      } 
+   
+    .container .jerrypic{
+       display: block; 
+       overflow: hidden; 
+       max-width: 100%;
+      
+      } 
+    
+    
+    .text  {
+        flex: 1;   
+        font-size:  30px;
+        border: solid black;     
+        background-color: rgb( 69, 43, 30);
+        color: rgb(255, 255, 255);
+    }
+
+
+
+.text .jerryq  a { 
+      font-size: 25px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+  }  
+.text .jerryq a:hover {
+  font-size:  30px;
+  color: rgb(199, 173, 28);  
+      }
+
+   
+.text .tomq a{
+  font-size: 25px;
+  text-decoration: none;
+   color: rgb(255, 255, 255);
+    }
+ .text .tomq  a:hover{
+  color:rgb(90, 133, 252);
+  font-size:  30px;     
+      }
+.text .tomq a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+      }
+
+
+.navvbar{
+  position: sticky;  
+  top: 0;
+   padding: 10px 0;
+   background-color:  rgb(40, 42, 112) ;
+   z-index: 1;
+  }
+     
+ .navvbar ul{
+  list-style-type: none;
+  background-color: rgb(40, 40, 114);
+  padding:  0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  
+ }
+
+ .navvbar li {
+   list-style: none;
+  
+   
+   
+ }
+
+ .navvbar a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  padding:  0px;
+  text-align: center;
+  
+ }
+
+ .navvbar a:hover{
+    color:  skyblue;
+  }
+  .navvbar a.active-1 {
+    color:  skyblue;
+  
+  } 
+
+
+ .text-2{
+  font-size:20px;
+  border: solid rgb(40, 42, 112) ; 
+  border-radius: 150ox; 
+  padding: 10px;
+ }
+
+
+ .Banner {
+  display: flex;
+  justify-content:  center;
+  background-color: rgb(40, 40, 114);;
+ }
+
+ .Banner img {
+  border: 2px solid black;
+  display: block; 
+
+ }
+.Banner img:hover{
+  border:  4px solid rgb( 69, 43, 30);
+  width: 400px; ;
+  height:  400px;
+}
+
+  footer{
+    color:  black;
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(40, 42, 112) ;
+     
+    
+}
+
+ footer  span { 
+   padding:  20px;
+   color: white;
+    
+   
+ }
+
+ @media (max-width: 495px) {
+
+  
+
+
+  .container{ 
+    display: inline-block; 
+    flex-wrap: nowrap;
+    overflow: hidden; 
+    max-width: 100%; 
+  }
+    
+  .container img {
+    width: 150px;
+    height:  150px;
+   
+  }
+ 
+  .container .tompic{
+    visibility: hidden;
+    
+   
+   } 
+ 
+   .jerrypic{
+    visibility: hidden;
+    } 
+
+  .text p {
+    position: relative;
+    left: 13px;
+    font-size:18px;
+  }
+.text .jerryq  a { 
+  font-size: 20px;
+}  
+
+.text .tomq a{
+  font-size:  20px;
+ }
+
+
+
+.text .jerryq  a:hover { 
+  font-size:  20px;
+}  
+
+.text .tomq a:hover{
+  font-size:  20px;
+ }
+ .Banner img {
+    
+   width: 140px; 
+   height:  140px;
+ 
+ }
+
+ .Banner img:hover{
+  width: 150px; 
+  height: 150px;
+}
+
+ }
+
+
+

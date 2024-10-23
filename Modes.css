@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(255, 255, 255);
+   }
+   
+   header{
+      color: rgb(40, 42, 112) ;
+   } 
+    header h1{
+    
+     text-align: center;
+      
+   }
+   .navvbar{
+    position: sticky;  
+    top: 0;
+     padding: 10px 0;
+     background-color:  rgb(40, 42, 112) ;
+     z-index: 1000;
+    }
+       
+   .navvbar ul{
+    list-style-type: none;
+    background-color: rgb(40, 40, 114);
+    padding:  0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+  
+   .navvbar li {
+     list-style: none;
+    
+     
+     
+   }
+  
+   .navvbar a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding:  0px;
+    text-align: center;
+    
+   }
+  
+   .navvbar a:hover{
+      color:  skyblue;
+    }
+    .navvbar a.active-4 {
+      color:  skyblue;
+  
+    } 
+
+    .game{
+      border: 50px solid  skyblue;
+      
+      
+    }
+
+    .game-1 pre {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  
+    }
+
+    .game-2 pre {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  
+    }
+
+    .game-3 pre {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  
+    }
+   
+    .game-1 img {
+      position: relative;
+      left: 25%
+    }
+
+    .game-2 img {
+      position: relative;
+     left: 25%
+    }
+
+    .game-3 img  {
+     position: relative;
+     left: 25%
+   
+    }
+
+    footer{
+      color:  black;
+      text-align: center;
+      margin: 0px;
+      background-color: rgb(40, 42, 112) ;
+       
+      
+    }
+    
+    footer  span { 
+     padding:  20px;
+     color: white;
+    }
+    
+
+
+
+  
+ 
